@@ -1,0 +1,18 @@
+TODO:
+
+misc ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+password check on database
+session id for telling client status of account creation
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+sign in ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	add database query
+	compare password to hash
+	set client to user
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+client side html pages ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	sign in page
+	account creation page
+	specific messageing page w username as name
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

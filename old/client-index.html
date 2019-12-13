@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+
+    <style>
+        body {
+          margin: 0;
+          background-color: #333333;
+
+        }
+
+        .font {
+          color: #FFFFFF
+
+        }
+
+        .container{
+          background-color: #222222;
+          padding: 10px 20px;
+        }
+
+
+        .myButton {
+          background-color:#44c767;
+          border-radius:10px;
+          border:1px solid #18ab29;
+          display:inline-block;
+          cursor:pointer;
+          color:#ffffff;
+          font-family:Arial;
+          font-size:17px;
+          padding:5px 10px;
+          text-decoration:none;
+          text-shadow:0px 1px 0px #2f6627;
+        }
+          .myButton:hover {
+            background-color:#5cbf2a;
+        }
+          .myButton:active {
+            position:relative;
+            top:1px;
+        }
+          .css-input {
+             padding: 5px;
+             font-size: 16px;
+             border-width: 1px;
+             border-color: #CCCCCC;
+             background-color: #FFFFFF;
+             color: #000000;
+             border-style: solid;
+             border-radius: 0px;
+             box-shadow: 0px 0px 5px rgba(66,66,66,.75);
+             text-shadow: 0px 0px 5px rgba(66,66,66,.75);
+        }
+           .css-input:focus {
+               outline:none;
+        }
+
+    </style>
+  </head>
+  <body onload="getName()">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.3.0/socket.io.dev.js"></script>
+    <script type="text/javascript" src="client-main.js">
+    </script>
+  <div class="container">
+    <h1 class="font">Bruh Chat</h1>
+    <h3 class="font" id="nameField"></h3>
+    <button id="sender" class="myButton"onclick="sendData()">Send</button>
+    <input type="text" class="css-input" id="message"></input>
+  </div>
+  <div style="height:500px;background-color: #FFFFFF;width:900px;border:1px solid #ccc;font:16px/26px Georgia, Garamond, Serif;overflow:auto;" id="textBox">
+  </div>
+    <br>
+    <a href="https://bruhchat.000webhostapp.com" class="font">BruhChat Home</a>
+  </body>
+</html>

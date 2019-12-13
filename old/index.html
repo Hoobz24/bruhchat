@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Bruh Chat</title>
+    <style>
+        body {
+          margin: 0;
+          text-align: center;
+        }
+
+        .font {
+          color: #FFFFFF
+
+        }
+
+        .container{
+          background-color: #222222;
+          padding: 10px 20px;
+          max-width: 200px;
+          margin: 0 auto;
+        }
+
+
+        .myButton {
+          background-color:#44c767;
+          border-radius:10px;
+          border:1px solid #18ab29;
+          display:inline-block;
+          cursor:pointer;
+          color:#ffffff;
+          font-family:Arial;
+          font-size:17px;
+          padding:5px 10px;
+          width: 100%;
+          text-decoration:none;
+          text-shadow:0px 1px 0px #2f6627;
+        }
+          .myButton:hover {
+            background-color:#5cbf2a;
+        }
+          .myButton:active {
+            position:relative;
+            top:1px;
+        }
+          .css-input {
+             padding: 5px;
+             font-size: 16px;
+             border-width: 1px;
+             border-color: #CCCCCC;
+             background-color: #FFFFFF;
+             color: #000000;
+             border-style: solid;
+             border-radius: 0px;
+             box-shadow: 0px 0px 5px rgba(66,66,66,.75);
+             text-shadow: 0px 0px 5px rgba(66,66,66,.75);
+        }
+           .css-input:focus {
+               outline:none;
+        }
+
+    </style>
+  </head>
+  <body class="container">
+    <script src="mainHome.js"></script>
+    <h1 class="font">Bruh Chat</h1>
+    <button class="myButton" onclick="goSign()">Sign In</button>
+    <br>
+    <br>
+    <button class="myButton" onclick="goAccount()">Create Account</button>
+
+  </body>
+</html>
